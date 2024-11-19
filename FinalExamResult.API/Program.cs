@@ -12,7 +12,8 @@ builder.Services.AddDbContext<FinalYearResultDBContext>(options =>
 builder.Services.AddScoped<IStudentMarksRepository, StudentMarksRepository>();
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+//Adding Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

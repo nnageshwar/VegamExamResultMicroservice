@@ -1,0 +1,90 @@
+﻿/* Styling for pass and fail statuses */
+.pass {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.fail {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+table td.pass {
+    color: green;
+    font-weight: bold;
+}
+
+table td.fail {
+    color: red;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) td.pass {
+    color: green !important;
+    font-weight: bold !important;
+}
+
+table tr:nth-child(even) td.fail {
+    color: red !important;
+    font-weight: bold !important;
+}
+
+table tr:nth-child(odd) td.pass {
+    color: green !important;
+    font-weight: bold !important;
+}
+
+table tr:nth-child(odd) td.fail {
+    color: red !important;
+    font-weight: bold !important;
+}
+
+table {
+    margin: 20px auto;
+    width: 95%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    border-top: 2px solid #ddd;
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+.buttons-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.group-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.alert-warning {
+    font-size: 1.1em;
+    font-weight: bold;
+}
